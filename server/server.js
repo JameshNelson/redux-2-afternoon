@@ -36,5 +36,5 @@ app.post('/api/budget-data/purchase', budget.purchase);
 app.delete('/api/budget-data/purchase/:id', budget.remove)
 
 app.listen(SERVER_PORT, () => {
-  console.log(`Server running on port ${SERVER_PORT}`)
+  console.log(`I NEVER LEARNED TO COUNT PAST ${SERVER_PORT}`)
 })
